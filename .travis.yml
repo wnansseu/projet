@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.0.0
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: qUdpQ58Z4iWaqNywwcCuQQBdQfkTI0Hd6lsbWW+Y5+u4B7YoUndyzwlhVl3V8goqPRUZwOL0I6GC0kQfnrTZGhxW/m5gUkRvNHfRmi4oqU3zLveOTgi723Q7lOt3UiQHXGM+K7QKX+WIQW3RWfvholoZVm9eYrjS/PN9pZXU0puCvWrZO9azOfldOYieZtvtGwTB+F15ROrUsCqx9IVNBbYTE7KApmU+bVrNyICZbyw4doQO+Ekhb6sXwfsBLL3B5ekhagS+nN1MCYdwDNM0PgQvBTC3hMBlHRhoS3oyMHQfw2xqvNgjHIQJNPIpxdzBltQbDl2zAS5vJNNAPNcGedVflJdNLZ85yT1htQanjkEOKIzzeMZ2nmten6Qa6PsnIFLCdWaSFNGx1USCOuo+bt6ioy7t/3ydcL+0s+BdCHwvTgwoxRk+LDe4sOAei8i7WJOllxrHd4wL+DrexzY2EWmnVzM3dEMPE7c5TobBzIpCWwona8GEdbfFu2e1y9luSjrWBcpb2sOqAAGhNV6aqUT4n2lBQRhrvovVbVl6O0IsswIuAKrzAWeVJ4kljeqmnYWIzcdCvk106Uyk8MzPY+PQfAug/wviPyC6FNFJRQEEKtAuD39d9/dEhGq9Bj5J5bDFzqVrLw3M0aa1tvDXbmiPkqy3QQBdEN0iiQ2JR6w=
+  app: agile-temple-60827
+  on:
+    repo: wnansseu/projet
